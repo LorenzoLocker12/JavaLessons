@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassesPart1/ClassesPart1.iml" filepath="$PROJECT_DIR$/ClassesPart1/ClassesPart1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaLessons.iml" filepath="$PROJECT_DIR$/.idea/JavaLessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodOverLoadingChallenge/MethodOverLoadingChallenge.iml" filepath="$PROJECT_DIR$/MethodOverLoadingChallenge/MethodOverLoadingChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinMaxChallenge/MinMaxChallenge.iml" filepath="$PROJECT_DIR$/MinMaxChallenge/MinMaxChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sum3And5Challenge/Sum3And5Challenge.iml" filepath="$PROJECT_DIR$/Sum3And5Challenge/Sum3And5Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaditionalSwitchChallenge/TaditionalSwitchChallenge.iml" filepath="$PROJECT_DIR$/TaditionalSwitchChallenge/TaditionalSwitchChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThePrimeNumberChallenge/ThePrimeNumberChallenge.iml" filepath="$PROJECT_DIR$/ThePrimeNumberChallenge/ThePrimeNumberChallenge.iml" />
+    </modules>
+  </component>
+</project>
