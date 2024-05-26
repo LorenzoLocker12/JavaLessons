@@ -1,8 +1,28 @@
+import java.util.SortedMap;
+
 public class Car {
     private String model;
     private String color;
     private String make;
     private int doors;
+    public Car(){
+        this("default make", "default color", "default model", 4);
+        System.out.println("Empty constructor called");
+    }
+
+    public Car(String make, String color, String model, int doors){
+        this.make = make;
+        this.color = color;
+        this.model = model;
+        this.doors = doors;
+        if(!make.equals("default make")){
+            System.out.println("Constructor with prameters called!");
+        }
+    }
+
+    public void carSpec(){
+        System.out.println(model + " " + color + " " + make + " " + doors + " ");
+    }
 
     public String getModel() {
         return model;
@@ -36,17 +56,6 @@ public class Car {
         this.doors = doors;
     }
 
-    public boolean isConvertible() {
-        return convertible;
-    }
 
-    public void setConvertible(boolean convertible) {
-        this.convertible = convertible;
-    }
 
-    private boolean convertible;
-
-    public void carSpec(){
-        System.out.println(model + " " + color + " " + make + " " + doors + " ");
-    }
 }

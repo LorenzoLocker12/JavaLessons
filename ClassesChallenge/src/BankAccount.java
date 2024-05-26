@@ -5,8 +5,6 @@ public class BankAccount {
     private String CustomerName;
     private String email;
     private String phoneNumber;
-
-
     public void depositFunds(double depositAmount){
         accountBalance += depositAmount;
         System.out.printf("Deposit of %,.2f$ made. Your new balance is: %,.2f$\n", depositAmount, accountBalance);
