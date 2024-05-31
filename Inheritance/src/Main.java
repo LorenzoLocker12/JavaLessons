@@ -3,12 +3,14 @@ public class Main {
         Animal animal = new Animal("Generic Animal", "Huge", 400);
         doAnimalStuff(animal, "slow");
 
-        Dog dog = new Dog();
-        doAnimalStuff(dog, "fast");
+        Dog husky = new Dog("Husky", 45, "pointy", "fluffy");
+        doAnimalStuff(husky, "slow");
 
+        Dog wolf = new Dog("wolf", 65);
+        doAnimalStuff(wolf, "fast");
 
-
-
+        Fish goldie = new Fish("GoldFish", 1, 2, 3);
+        doAnimalStuff(goldie, "fast");
 
 
     }
