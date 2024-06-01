@@ -39,8 +39,10 @@ public class SmartKitchen {
         brewMaster.setHasWorkToDo(brewMasterState);
     }
 
-    public void doKitchenWork(){
-
+    public void doKitchenWork(String food){
+        brewMaster.makeCoffee();
+        iceBox.orderFood(food);
+        dishWasher.doDishes();
     }
 
 }
