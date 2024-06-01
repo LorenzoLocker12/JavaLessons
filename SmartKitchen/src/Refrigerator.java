@@ -10,7 +10,7 @@ public class Refrigerator {
 
     public void orderFood(String food){
         if(hasWorkToDo){
-            System.out.printf("Food: %s, has succecssfully ben ordered\n", food);
+            System.out.printf("Food: %s, has succecssfully beign ordered\n", food);
             hasWorkToDo = false;
         }
     }

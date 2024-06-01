@@ -7,7 +7,7 @@ public class CoffeeMaker {
         this.hasWorkToDo = hasWorkToDo;
     }
 
-    public void orderFood(){
+    public void makeCoffee(){
         if(hasWorkToDo){
             System.out.printf("Coffee beign made!\n");
             hasWorkToDo = false;
