@@ -25,6 +25,7 @@ public class MoreLists {
         if (groceries.contains("YAY")) {
             System.out.println("YAY is in the list");
         }
+        
 
         groceries.add("Minions");
         groceries.add(5,"Minions");
